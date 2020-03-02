@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/pi/fanshim
+cd /home/volumio/fanshim
 echo looking to kill any old tmux stress session
 tmux kill-session -t stress
 echo now new tmux stress session 100% load 15 minutes
