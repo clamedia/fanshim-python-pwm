@@ -17,6 +17,6 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-sudo -u pi bash /home/pi/fanshim/tmux_start.sh &
+sudo -u pi bash /home/volumio/fanshim/tmux_start.sh &
 
 exit 0
