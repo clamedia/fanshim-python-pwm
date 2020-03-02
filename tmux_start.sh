@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/pi/fanshim
+cd /home/volumio/fanshim
 echo looking to kill any existing fanshim session
 tmux kill-session -t fanshim
 echo now new tmux fanshim session
